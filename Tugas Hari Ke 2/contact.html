@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Saya</title>
+    <link rel="stylesheet" href="public/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img class="logo" id="logo" src="public/logo.png" width="200px" />
+            <ul>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+                <a href="about.html">
+                    <li>About</li>
+                </a>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <h1 class="about-header">Hubungi Kami</h1>
+        <h4>Kantor : Di Jalan Yang Penuh Kehampaan</h4>
+        <h4>Nomor Telepon : 0896 - 3391 - 2637</h4>
+        <h4>Email : contact.panduzamorra@gmail.com</h4>
+    </div>
+
+    <div>
+        <h1 class="about-header">Kirimkan Pesan</h1>
+        <h4 class="sub-header">Nama<input class="input" type="text" name="info"></h4>
+        <h4 class="sub-header">Email<input class="input" type="text" name="Email"></h4>
+    </div>
+
+    <div>
+        <h4>
+            Pilih Jenis Kelamin
+        </h4>
+        <form class="jenis-kelamin" method="post" action="#">
+            <input type="radio" name="jk" value="Laki" />Laki-laki<br />
+            <input type="radio" name="jk" value="Perempuan" />Perempuan<br />
+        </form>
+    </div>
+
+    <div>
+        <h4>Pesan Anda</h4>
+        <textarea class="text-area" name="pesan" id="#inipesan" cols="30" rows="10"></textarea>
+    </div>
+    <input type="submit" name="submit" value="Kirim" />
+</body>
+
+</html>

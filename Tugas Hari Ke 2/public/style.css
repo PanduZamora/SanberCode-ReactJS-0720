@@ -1,0 +1,86 @@
+.body {
+  background-image: url("pattern.jpg");
+}
+
+/* navbar */
+
+.header-nav {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navbar {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  font-family: arial;
+}
+
+nav ul {
+  text-decoration: none;
+  padding: 0 20px;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  width: 100%;
+  margin: -55px;
+  font-size: 20px;
+}
+
+nav ul li {
+  float: right;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.featured-post {
+  background-color: #fff;
+  margin-left: 90px;
+  margin-right: 90px;
+  padding: 90px;
+}
+
+/* end navbar */
+
+/* contat */
+
+.about-header {
+  text-align: center;
+}
+
+.input {
+  margin-left: 200px;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.jenis-kelamin {
+  margin-left: 235px;
+  margin-top: -50px;
+}
+
+.text-area {
+  margin-left: 235px;
+  margin-top: -50px;
+}
+
+/* end about */
+
+/* footer */
+
+.footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 2px;
+}
+
+/* end footer */

@@ -1,0 +1,6 @@
+Data Peserta Sanbercode Bootcamp ReactJS
+1. Nama: Pandu Zamora
+2. Email: contact.panduzamora@gmail.com
+3. Sistem Operasi yang digunakan: Windows 10
+4. Akun Gitlab: PanduZamora
+5. Akun Telegram: Pandu Zamora
